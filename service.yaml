@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: react-service
-  namespace: react-demo  
+  namespace: react-microk8s  
 spec:
   selector:
     app: react
